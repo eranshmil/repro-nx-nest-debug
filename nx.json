@@ -1,0 +1,28 @@
+{
+  "npmScope": "repro-nx-nest-debug",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "repro-nx-nest-debug": {
+      "tags": []
+    },
+    "repro-nx-nest-debug-e2e": {
+      "tags": [],
+      "implicitDependencies": ["repro-nx-nest-debug"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
