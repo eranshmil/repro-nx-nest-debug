@@ -1,7 +1,22 @@
 {
   "extends": "../../tslint.json",
   "rules": {
-    "directive-selector": [true, "attribute", "reproNxNestDebug", "camelCase"],
-    "component-selector": [true, "element", "repro-nx-nest-debug", "kebab-case"]
+    "directive-selector": [
+      true,
+      "attribute",
+      "reproNxNestDebug",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "repro-nx-nest-debug",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": [
+      "!**/*"
+    ]
   }
 }
